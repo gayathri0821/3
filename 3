@@ -1,0 +1,27 @@
+package ex_siva;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		try
+		{
+		
+		System.out.println(args[0]);
+		int i=Integer.parseInt(args[0]);
+		if((i%1==0)&&(i%2==0))
+		{
+		System.out.println("not prime number");	
+		}
+		else
+		{
+			System.out.println(" prime number");
+		}
+		}
+		catch(ArrayIndexOutOfBoundsException ae)
+		{
+			System.out.println();
+		}
+		
+	}
+
+}
